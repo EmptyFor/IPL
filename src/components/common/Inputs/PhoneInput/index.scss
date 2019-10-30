@@ -1,0 +1,31 @@
+.arch-phone-div {
+    position: relative;
+  .arch-phone-input {
+    min-height: 5vh;
+    padding-left: 32%;
+    font-size: 18px;
+    border-radius: 45px;
+    border: 1px solid black;
+  }
+
+  .arch-phone-input-select {
+    border: inherit;
+    background: rgba(0, 0, 0, 0);
+    height: 100%;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: absolute;
+    font-size: 18px;
+    letter-spacing: 1px;
+    left: 3.5%;
+    padding: 0 2% 0 5%;
+    border-right: 1px solid rgb(71, 71, 71);
+    option {
+      cursor: pointer;
+      width: auto;
+      text-align: center;
+    }
+  }
+}

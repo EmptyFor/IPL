@@ -1,0 +1,55 @@
+.arch-burger-menu {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    background: #000;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 1s;
+  
+    .arch-burger-menu-line {
+      position: absolute;
+      content: "";
+      width: 50%;
+      height: 3px;
+      background: rgb(255, 255, 255);
+      transition-duration: .5s
+    }
+  
+    .arch-burger-menu-line::before,
+    .arch-burger-menu-line::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 3px;
+      margin-top: -25%;
+      background: rgb(255, 255, 255);
+      transition-duration: .5s
+    }
+    .arch-burger-menu-line::after {
+      margin-top: 28%;
+    }
+  }
+  
+  .arch-burger-menu:hover {
+
+    .arch-burger-menu-line {
+        background: inherit;
+        transition-duration: .1s
+      }
+  
+    .arch-burger-menu-line::before {
+      transform: rotate(-45deg);
+    }
+    .arch-burger-menu-line::after {
+      transform: rotate(45deg);
+    }
+  }
+  

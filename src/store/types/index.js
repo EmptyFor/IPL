@@ -1,0 +1,2 @@
+export const GET_ROW_INDEX = 'GET_ROW_INDEX';
+export const GET_COMPLETED_TASK = 'GET_COMPLETED_TASK'

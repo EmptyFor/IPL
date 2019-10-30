@@ -1,0 +1,37 @@
+.arch-login-form {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+
+  .login-form {
+    min-width: 30vw;
+    // min-height: 50vh;
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+
+    .login-header {
+      font-size: 30px;
+      // font-weight: 550;
+      text-align: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      letter-spacing: 1.2px;
+    }
+    .login-form-btn {
+      width: 100%;
+      border-radius: 25px;
+      min-height: 40px;
+    }
+
+    .login-links{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

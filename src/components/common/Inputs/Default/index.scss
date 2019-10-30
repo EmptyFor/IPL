@@ -1,0 +1,42 @@
+.arch-input-wrapp {
+  position: relative;
+  text-align: left;
+
+
+  .arch-default-input {
+    width: 100% ;
+    min-height: 45px;
+    height: auto;
+    padding: 0 6%;
+    font-size: 18px;
+    border-radius: 45px;
+    border: 1px solid black;
+    margin-block-start: 5%;
+    margin-block-end: 5%;
+  }
+
+
+  .placeholder-label {
+    position: absolute;
+    font-size: 20px;
+    left: 10%;
+    top: 32%;
+    transition: 0.15s;
+  }
+
+  .arch-default-input:focus {
+    border: 2px solid black;
+  }
+
+  .arch-default-input:focus ~ .placeholder-label,
+  .arch-default-input:valid + .placeholder-label {
+    font-weight: 520;
+    padding: 0 1%;
+    top: 0;
+    left: 6%;
+    z-index: 10;
+    background: white;
+    color: black;
+    
+  }
+}
